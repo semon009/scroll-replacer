@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
+    <AssemblyName>ScrollReplacer</AssemblyName>
+    <RootNamespace>ScrollReplacer</RootNamespace>
+    <StartupObject>ScrollReplacer.Program</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Update="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+</Project>
